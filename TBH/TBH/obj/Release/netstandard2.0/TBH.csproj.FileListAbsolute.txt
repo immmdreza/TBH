@@ -1,0 +1,9 @@
+C:\Users\lenovo\source\repos\TBH\TBH\bin\Release\netstandard2.0\TBH.deps.json
+C:\Users\lenovo\source\repos\TBH\TBH\bin\Release\netstandard2.0\TBH.dll
+C:\Users\lenovo\source\repos\TBH\TBH\bin\Release\netstandard2.0\TBH.pdb
+C:\Users\lenovo\source\repos\TBH\TBH\obj\Release\netstandard2.0\TBH.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\TBH\TBH\obj\Release\netstandard2.0\TBH.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\TBH\TBH\obj\Release\netstandard2.0\TBH.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\TBH\TBH\obj\Release\netstandard2.0\TBH.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\TBH\TBH\obj\Release\netstandard2.0\TBH.dll
+C:\Users\lenovo\source\repos\TBH\TBH\obj\Release\netstandard2.0\TBH.pdb
