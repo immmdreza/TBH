@@ -6,9 +6,16 @@
     <Company>Task System</Company>
     <Description>Helper class library for telegram bot.</Description>
     <PackageTags>telegrambot,telegram,bot</PackageTags>
-    <Version>1.0.3</Version>
+    <Version>1.1.1</Version>
     <Product>Task System</Product>
     <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/immmdreza/TBH</RepositoryUrl>
+    <RepositoryType>Package</RepositoryType>
+    <Copyright>Task System 2020</Copyright>
+    <Authors>Task System</Authors>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <FileVersion>1.1.1.0</FileVersion>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>

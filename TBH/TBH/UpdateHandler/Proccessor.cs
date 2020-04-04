@@ -12,7 +12,7 @@ namespace TBH.UpdateHandler
         private iUpdate iupdate;
         private Update newupdate;
         private TelegramBotClient client;
-        private string lc;
+        private Dictionary<string, object> CD;
 
         /// <summary>
         /// Proccessor :)
@@ -21,12 +21,12 @@ namespace TBH.UpdateHandler
         /// <param name="Client">sender of update</param>
         /// <param name="update">Update itself</param>
         /// <param name="CustomData">Custom data</param>
-        public Proccessor(iUpdate iupdate, TelegramBotClient Client, Update update, string CustomData)
+        public Proccessor(iUpdate iupdate, TelegramBotClient Client, Update update, Dictionary<string, object> customData)
         {
             this.iupdate = iupdate;
             client = Client;
             newupdate = update;
-            lc = CustomData;
+            CD = customData;
         }
 
 
@@ -34,7 +34,7 @@ namespace TBH.UpdateHandler
         /// proccess given update.
         /// </summary>
         /// <returns>if proccess is done.</returns>
-        public async Task<bool> Proccess() => await iupdate.ProccessUpdateAsync(client, newupdate, lc);
+        public async Task<bool> Proccess() => await iupdate.ProccessUpdateAsync(client, newupdate, CD);
 
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls
@@ -50,7 +50,7 @@ namespace TBH.UpdateHandler
 
                 // TODO: free unmanaged resources (unmanaged objects) and override a finalizer below.
                 // TODO: set large fields to null.
-                lc = null;
+                CD = null;
                 client = null;
                 newupdate = null;
                 iupdate = null;

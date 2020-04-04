@@ -1,13 +1,13 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "b014c12c1233e3c63c8cfa6b3f93b544381e02d4"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "TBH/1.0.3": {
+      "TBH/1.1.1": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Telegram.Bot": "15.4.0"
@@ -516,7 +516,7 @@
     }
   },
   "libraries": {
-    "TBH/1.0.3": {
+    "TBH/1.1.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

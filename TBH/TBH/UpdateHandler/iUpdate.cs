@@ -25,7 +25,7 @@ namespace TBH.UpdateHandler
         /// <param name="update">Recieved update from Client.</param>
         /// <param name="CustomData">Every Custom data that you want to send to proccessor.</param>
         /// <returns>return true if proccess id done.</returns>
-        Task<bool> ProccessUpdateAsync(TelegramBotClient client, Update newupdate, string CustomData);
+        Task<bool> ProccessUpdateAsync(TelegramBotClient client, Update newupdate, Dictionary<string,object> customData);
     }
 
     /// <summary>
@@ -34,6 +34,6 @@ namespace TBH.UpdateHandler
     public class Trigger
     {
         public UpdateType UpdateType { get; set; }
-        public string[] TextTriggers { get; set; }
+        public List<string> TextTriggers { get; set; }
     }
 }
